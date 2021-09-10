@@ -10,7 +10,7 @@ const app = express();
 // Enter the path to your service account json file below where it says "REPLACE_WITH_SERVICE_ACCOUNT"
 // If you need more help with this step go here: https://firebase.google.com/docs/admin/setup
 
-const serviceAccount = require("firebase-adminsdk-l5iuc@madden-bowl.iam.gserviceaccount.com");
+const serviceAccount = require("madden-bowl");
 
 // TODO: Uncomment out line 17-21
 // Enter your database url from firebase where it says <DATABASE_NAME> below.
